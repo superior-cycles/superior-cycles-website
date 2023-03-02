@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Superior Cycles LLC</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <style>a{color:rgb(78, 110, 129)}</style>
+    <style>a{color:rgb(78, 110, 129)} img.bordered{border:solid 5px rgb(78, 110, 129)}</style>
   </head>
   <body>
 
     <!-- Navigation bar -->
-    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark" data-bs-theme="dark" >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#2E3840">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Superior Cycles</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,6 +23,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
@@ -79,10 +82,10 @@
 
 
     <div class="row justify-content-center mt-md-5 pt-5 mb-md-5">
-        <div class="col-md-4">
-            <img style="width:100%;height:auto;border-radius:400px" src="pictures/patrick-2-square.jpeg">
+        <div class="col-md-3 pr-md-5 mr-md-5">
+            <img style="width:100%;height:auto;border-radius:10px" src="pictures/patrick-3.jpeg" class="bordered mr-md-5">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 pl-md-5">
             <a name="about"><h3>About Me</h3></a>
             <p>My name is Patrick McCauley and I’ve been
                 taking bikes apart and putting them back
@@ -119,14 +122,14 @@
 
         <div class="row justify-content-center mt-md-5" style="padding-left:0;padding-right:0">
             <div class="col-md-6 mt-md-5 pt-md-5">
-                <img style="width:100%;height:auto;border-radius:4px" src="pictures/shop-pic-2.jpeg" class="mt-md-5">
+                <img style="width:100%;height:auto;border-radius:10px" src="pictures/shop-pic-2.jpeg" class="mt-md-5 bordered">
             </div>
         </div>
     
 
         
-        <div class="row justify-content-center mt-md-5">
-            <div class="col-md-4">
+        <div class="row justify-content-center mt-md-3">
+            <div class="col-md-6">
             <a name="services"></a>
             <h3>Services</h3>
 
@@ -159,33 +162,26 @@
             </div>
         </div>
     
-        <div class="row mt-md-5 mb-md-5 justify-content-center" >
-            <div class="col-md-6 p-4" style="background-color:rgb(249, 219, 187);color:black;border-radius:4px">
-                <a name="contact"><h4>Free Estimates</h4></a>
-           
-                <p>All estimates are free of charge!</p>
-                <ul>
-                    <li>All service costs will be estimated at my rate of
-                $85/hour + cost of parts.</li>
-                    <li>Certain bikes and bikes in certain condition may
-                require more labor than typical. These include,
-                but are not limited to, e-bikes, tandems,
-                recumbents, tall bikes, or particularly rusted,
-                corroded, or dirty bikes. These conditions will be
-                taken into account when making estimates.</li>
-                    <li>If actual costs differ from initial estimate by more
-                than 10% I will contact you and secure your
-                permission before proceeding.</li>
-                    <li>I reserve the right to refuse service to any bike for
-                any reason.</li>
-                </ul>
-
+        <div class="row justify-content-center mt-md-5 mb-md-5" style="padding-left:0;padding-right:0">
+            
+            <div class="col-md-3 mt-md-5 pt-md-5">
+                <img style="width:100%;height:auto;border-radius:10px" src="pictures/patrick-1.jpeg" class="mt-md-5 bordered">
             </div>
+            <div class="col-md-3 mt-md-5 pt-md-5">
+                <img style="width:100%;height:auto;border-radius:10px" src="pictures/patrick-2.jpeg" class="mt-md-5 bordered">
+            </div>
+            
         </div>
+
+        
 
 
         <div class="row mt-md-5 mb-md-5 justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-6 mt-md-5 pt-5">
+
+                <a name="pricing"></a>
+                <h4>Pricing</h4>
+
                 <table class="table">
                     <thead>
                         <td scope="col">Service</td>
@@ -225,6 +221,30 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+
+        <div class="row mt-md-5 mb-md-5 justify-content-center" >
+            <div class="col-md-6 p-4" style="background-color:rgb(249, 219, 187);color:black;border-radius:4px">
+                <a name="contact"><h4>Free Estimates</h4></a>
+           
+                <p>All estimates are free of charge!</p>
+                <ul>
+                    <li>All service costs will be estimated at my rate of
+                $85/hour + cost of parts.</li>
+                    <li>Certain bikes and bikes in certain condition may
+                require more labor than typical. These include,
+                but are not limited to, e-bikes, tandems,
+                recumbents, tall bikes, or particularly rusted,
+                corroded, or dirty bikes. These conditions will be
+                taken into account when making estimates.</li>
+                    <li>If actual costs differ from initial estimate by more
+                than 10% I will contact you and secure your
+                permission before proceeding.</li>
+                    <li>I reserve the right to refuse service to any bike for
+                any reason.</li>
+                </ul>
+
             </div>
         </div>
 
